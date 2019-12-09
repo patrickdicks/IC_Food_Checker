@@ -1,1 +1,1 @@
-# IC-Food-Checker
+# IC Food Checker
