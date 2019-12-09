@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interstitial Cystitis Network 2012 Food List </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="container" id = "jumb">
+                <img id = "food" src = "https://www.thecandidadiet.com/wp-content/uploads/2018/08/candida-foods-to-eat.jpg">
+                <h3 id = "jumb-context">Registration</h3>
+                <h4 id = "jumb-context">
+                Register a New Account
+                </h4>
+            </div>
+            <br>
+            <br>
+            <a href="/" class="btn btn-dark">Back to Home</a>
+            <br>  
+            <br>      
+            <form action="/register" method="POST">
+                <div class="form-group">
+                    <label for="username">User Name</label>
+                    <input class="form-control" type="text" name="username" placeholder="username" pattern="[^' ']+" minLength=4 maxLength=16 required>
+                    <small id="usernameHelp" class="form-text text-muted">Minimum length 4 and maximum length 16 characters. No spaces allowed.</small>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input class="form-control" type="email" name="email" placeholder="youremail@somedomain.com" pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" required>
+                    <small id="emailHelp" class="form-text text-muted">A valid email address is required for lost password reset.</small>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input class="form-control" type="password" name="password" placeholder="password" minLength=6 maxLength=16 pattern="[^' ']+" required>
+                    <small id="passwordHelp" class="form-text text-muted">Minimum length 6 and maximum length 16 characters. No spaces allowed.</small>
+                </div>
+                <div class="form-group">
+                    <label for="birthdate">Birth Date</label>
+                    <input class="form-control" type="date" name="birthdate" placeholder="1975-01-12" max="<%= today %>">
+                </div>
+                <button class="btn btn-dark" type="submit">Submit</button>
+            </form>  
+        </div>
+    </body>
+</html>
