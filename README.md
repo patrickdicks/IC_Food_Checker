@@ -1,6 +1,6 @@
 # IC Food Checker
 
-![IC Food Checker](https://github.com/patrickdicks/Defenders/blob/master/server/public/assets/img/Title.png)
+![IC Food Checker](https://github.com/patrickdicks/IC_Food_Checker/blob/master/IC_Food_Checker.png)
 
 ## About:
 Database driven website based around the chronic bladder pain condition “Interstitial Cystitis,” which provides users with recommended lists of foods to try.
