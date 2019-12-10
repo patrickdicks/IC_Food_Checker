@@ -1,7 +1,7 @@
 {
   "name": "ic_food_checker",
   "version": "1.0.0",
-  "description": "Database driven website based around the chronic bladder pain condition “Interstitial Cystitis,” which provides users with recommended lists of foods to try.",
+  "description": "Database driven website based around the chronic bladder pain condition “Interstitial Cystitis”",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
