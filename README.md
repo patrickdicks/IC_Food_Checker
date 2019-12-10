@@ -18,13 +18,20 @@ Supports account creation and user login.
 ```
 npm install
 ```
-Open dbcon.js and add database information the following:
+Open dbcon.js and add MySQL database information to the following:
 ```
 host            : '',
 user            : '',
 password        : '',
 database        : ''
 ```
+
+Import the following files into MySQL database:
+```
+faf
+af
+```
+
 
 ## Run:
 ```
