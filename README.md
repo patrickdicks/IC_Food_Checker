@@ -26,12 +26,11 @@ password        : '',
 database        : ''
 ```
 
-Import the following files into MySQL database:
+Import the following .sql files into MySQL database:
 ```
-faf
-af
+food_db.sql
+IC_queries.sql
 ```
-
 
 ## Run:
 ```
