@@ -1,0 +1,36 @@
+#food{
+  width:90%;
+  height:360px;
+  margin-left:5%;
+}
+#jumb{
+  background-color:#f4c842;
+  padding-top:5%;
+  padding-bottom:1%;
+  
+
+}
+#jumb-context{
+  margin-left:5%;
+}
+
+button{
+  border:none;
+}
+
+.bladder-friendly {
+	background-color: rgba(76, 231, 4, 0.1);
+}
+
+.worth-trying {
+	background-color: rgba(231, 223, 4, 0.1);
+}
+
+.to-avoid {
+	background-color: rgba(231, 4, 4, 0.1);
+}
+
+.not-found {
+	color: red;
+	font-style: italic;
+}
