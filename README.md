@@ -34,6 +34,6 @@ IC_queries.sql
 
 ## Run:
 ```
-Node index.js [port]
+Node app.js [port]
 Open http://localhost:[port]/ in web browser
 ```
