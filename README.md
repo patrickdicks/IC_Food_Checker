@@ -7,7 +7,7 @@ Database driven website based around the chronic bladder pain condition “Inter
 
 Supports account creation and user login. 
 
-*Technologies Used:
+* Technologies Used:
   * CSS
   * HTML
   * JavaScript
